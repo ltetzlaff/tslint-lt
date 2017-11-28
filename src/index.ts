@@ -120,9 +120,13 @@ module.exports = {
       "check-else"
     ],
     "space-before-function-paren": [
-      true, 
-      "never"
-    ],
+      true,
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],    
     "variable-name": [
       true,
       "ban-keywords",
