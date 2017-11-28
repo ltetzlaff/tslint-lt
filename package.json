@@ -1,0 +1,26 @@
+{
+  "name": "tslint-lt",
+  "version": "1.0.0",
+  "description": "personal tslint config",
+  "scripts": {
+    "build": "tsc --watch || true",
+    "buildOnce": "tsc",
+    "test": "npm run buildOnce && node dist/tests/test.js",
+    "prepublish": "npm run buildOnce"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index",
+  "types": "dist/index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ltetzlaff/tslint-lt.git"
+  },
+  "author": "ltetzlaff",
+  "license": "All rights reserved.",
+  "devDependencies": {
+    "@types/node": "^8.0.53",
+    "typescript": "^2.6.2"
+  }
+}
