@@ -21,6 +21,10 @@
   "license": "All rights reserved.",
   "devDependencies": {
     "@types/node": "^8.0.53",
+    "tslint": "^5.8.0",
     "typescript": "^2.6.2"
+  },
+  "peerDependencies": {
+    "tslint": ">=5.8.0"
   }
 }
