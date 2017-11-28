@@ -1,6 +1,6 @@
 # tslint-lt
 
-[![Build Status](https://travis-ci.org/ltetzlaff/tslint-lt.svg?token=<token>&branch=master)](https://travis-ci.org/ltetzlaff/tslint-lt)
+[![Build Status](https://travis-ci.org/ltetzlaff/tslint-lt.svg?branch=master)](https://travis-ci.org/ltetzlaff/tslint-lt)
 
 ## Setup (in ./)
 
