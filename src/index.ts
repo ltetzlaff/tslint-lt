@@ -80,9 +80,7 @@ module.exports = {
       }
     ],
     "curly": [
-      true,
-      "ignore-same-line",
-      "as-needed"
+      false
     ],
     "triple-equals": [
       true,
