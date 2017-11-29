@@ -26,8 +26,7 @@ module.exports = {
     "prefer-object-spread": true,
     "no-var-keyword": true,
     "no-use-before-declare": true,
-    "no-unused-variable": true,
-    "no-this-assignment": true,
+    "no-unused-variable": true,    
     "no-switch-case-fall-through": false,
     "no-string-literal": true,
     "no-sparse-arrays": true,
@@ -53,6 +52,12 @@ module.exports = {
     "no-any": true,
     "member-access": true,
     "ban-comma-operator": true,
+    "no-this-assignment": [
+      true,
+      {
+        "allow-destructuring": true
+      }
+    ],
     "semicolon": [
       true,
       "never"
