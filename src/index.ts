@@ -10,8 +10,8 @@ module.exports = {
     "no-reference-import": true,
     "no-redundant-jsdoc": true,
     "no-consecutive-blank-lines": true,
-    "no-angle-bracket-type-assertion": true,    
-    "no-unnecessary-callback-wrapper": true,    
+    "no-angle-bracket-type-assertion": true,
+    "no-unnecessary-callback-wrapper": true,
     "no-trailing-whitespace": true,
     "import-spacing": true,
     "encoding": true,
@@ -26,7 +26,7 @@ module.exports = {
     "prefer-object-spread": true,
     "no-var-keyword": true,
     "no-use-before-declare": true,
-    "no-unused-variable": true,    
+    "no-unused-variable": false,
     "no-switch-case-fall-through": false,
     "no-string-literal": true,
     "no-sparse-arrays": true,
@@ -44,7 +44,7 @@ module.exports = {
     "no-arg": true,
     "label-position": true,
     "forin": true,
-    "prefer-for-of": true,    
+    "prefer-for-of": true,
     "promise-function-async": true,
     "no-reference": true,
     "no-unnecessary-type-assertion": true,
@@ -61,7 +61,7 @@ module.exports = {
     "semicolon": [
       true,
       "never"
-    ],    
+    ],
     "only-arrow-functions": [
       true,
       "allow-declarations",
@@ -90,7 +90,7 @@ module.exports = {
     "triple-equals": [
       true,
       "allow-null-check"
-    ],    
+    ],
     "indent": [
       true,
       "spaces",
@@ -103,7 +103,7 @@ module.exports = {
     "array-type": [
       true,
       "array"
-    ],    
+    ],
     "interface-name": [
       true,
       "always-prefix"
@@ -129,7 +129,7 @@ module.exports = {
         "named": "never",
         "asyncArrow": "always"
       }
-    ],    
+    ],
     "variable-name": [
       true,
       "ban-keywords",
