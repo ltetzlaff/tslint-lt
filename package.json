@@ -21,10 +21,11 @@
   "license": "All rights reserved.",
   "devDependencies": {
     "@types/node": "^8.0.53",
-    "tslint": "^5.8.0",
     "typescript": "^2.6.2"
   },
-  "peerDependencies": {
-    "tslint": ">=5.8.0"
+  "dependencies": {
+    "prettier": "^1.10.2",
+    "tslint": "^5.9.1",
+    "tslint-config-prettier": "^1.6.0"
   }
 }
