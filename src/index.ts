@@ -1,4 +1,7 @@
 module.exports = {
+  "extends": [
+    "tslint-config-prettier"
+  ],
   "rules": {
     "quotemark": "double",
     "space-within-parens": false,
