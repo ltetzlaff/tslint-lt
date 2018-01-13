@@ -9,7 +9,8 @@
     "prepublish": "npm run buildOnce"
   },
   "files": [
-    "dist"
+    "dist",
+    ".prettierrc.yml"
   ],
   "main": "dist/index",
   "types": "dist/index",
