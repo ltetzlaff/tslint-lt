@@ -126,8 +126,7 @@ module.exports = {
       "check-else"
     ],
     "space-before-function-paren": [
-      true,
-      "never"
+      false
     ],
     "variable-name": [
       true,
