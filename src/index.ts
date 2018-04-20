@@ -127,11 +127,7 @@ module.exports = {
     ],
     "space-before-function-paren": [
       true,
-      {
-        "anonymous": "always",
-        "named": "never",
-        "asyncArrow": "never"
-      }
+      "never"
     ],
     "variable-name": [
       true,
