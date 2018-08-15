@@ -6,7 +6,7 @@
     "build": "tsc --watch || true",
     "buildOnce": "tsc",
     "test": "npm run buildOnce && node dist/tests/test.js",
-    "prepublish": "npm run buildOnce"
+    "prepare": "npm run buildOnce"
   },
   "files": [
     "dist",
