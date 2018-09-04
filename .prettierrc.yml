@@ -1,10 +1,9 @@
-useTabs: false
-tabWidth: 2
 printWidth: 80
-singleQuote: false
-parser: typescript
-trailingComma: none
-jsxBracketSameLine: false
+tabWidth: 2
+useTabs: false
 semi: false
+singleQuote: false
 bracketSpacing: true
+jsxBracketSameLine: false
 arrowParens: avoid
+parser: typescript
