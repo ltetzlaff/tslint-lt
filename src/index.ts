@@ -36,6 +36,9 @@ const tsOnlyRules = {
 }
 
 const mixedRules = {
+  "no-string-throw": true,
+  "no-unused-expression": true,
+  "no-duplicate-variable": true,
   "quotemark": "double",
   "space-within-parens": false,
   "prefer-method-signature": true,
