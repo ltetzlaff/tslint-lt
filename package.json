@@ -3,10 +3,12 @@
   "version": "1.8.0",
   "description": "personal tslint config",
   "scripts": {
-    "build": "tsc --watch || true",
+    "build": "tsc --watch",
     "buildOnce": "tsc",
-    "test": "npm run buildOnce && node dist/tests/test.js",
-    "prepare": "npm run buildOnce"
+    "test": "npm run prettier && npm run buildOnce && npm run lint",
+    "prepare": "npm run buildOnce",
+    "lint": "tslint --format stylish --project .",
+    "prettier": "prettier --write \"**/*.{ts,tsx,css,scss,html,js,jsx,yml,json,md}\" \"!{,dist}/**\""
   },
   "files": [
     "dist",
