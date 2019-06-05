@@ -17,15 +17,16 @@ npm install
 ## Dev (in ./)
 
 Typescript builds are automatic and watch for file changes:
+
 ```bash
 npm run build
 ```
 
 or run this to build only once:
+
 ```bash
 npm run buildOnce
 ```
-
 
 ## Contribution
 
