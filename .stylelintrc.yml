@@ -52,12 +52,12 @@ rules:
 
   ## Limit language features
   # Color
-  color-named: always-where-possible
-  color-no-hex: false
+  color-named: null
+  color-no-hex: null
 
   # Function
   #function-blacklist: Specify a blacklist of disallowed functions.
-  function-url-no-scheme-relative: false
+  function-url-no-scheme-relative: null
   #function-url-scheme-blacklist: Specify a blacklist of disallowed URL schemes.
   #function-url-scheme-whitelist: Specify a whitelist of allowed URL schemes.
   #function-whitelist: Specify a whitelist of allowed functions.
@@ -79,14 +79,14 @@ rules:
   shorthand-property-no-redundant-values: true
 
   # Value
-  value-no-vendor-prefix: false
+  value-no-vendor-prefix: null
 
   # Custom property
   #custom-property-pattern: Specify a pattern for custom properties.
 
   # Property
   #property-blacklist: Specify a blacklist of disallowed properties.
-  property-no-vendor-prefix: false
+  property-no-vendor-prefix: null
   #property-whitelist: Specify a whitelist of allowed properties.
 
   # Declaration
@@ -214,12 +214,12 @@ rules:
   block-closing-brace-empty-line-before: never
   block-closing-brace-newline-after: always
   block-closing-brace-newline-before: always
-  block-closing-brace-space-after: never
-  block-closing-brace-space-before: never
-  block-opening-brace-newline-after: always
-  block-opening-brace-newline-before: never-single-line
-  block-opening-brace-space-after: never
-  block-opening-brace-space-before: always
+  block-closing-brace-space-after: never-single-line
+  block-closing-brace-space-before: never-single-line
+  block-opening-brace-newline-after: null
+  block-opening-brace-newline-before: null
+  block-opening-brace-space-after: always-single-line
+  block-opening-brace-space-before: always-single-line
 
   # Selector
   selector-attribute-brackets-space-inside: always
@@ -242,7 +242,14 @@ rules:
   selector-list-comma-space-before: never
 
   # Rule
-  rule-empty-line-before: always
+  rule-empty-line-before:
+    - always
+    - except:
+        - after-single-line-comment
+        - inside-block-and-after-rule
+        - inside-block
+      ignore:
+        - first-nested
 
   # Media feature
   media-feature-colon-space-after: always
@@ -259,7 +266,10 @@ rules:
   media-query-list-comma-space-before: never-single-line
 
   # At-rule
-  at-rule-empty-line-before: always
+  at-rule-empty-line-before:
+    - always
+    - ignore:
+        - after-comment
   at-rule-name-case: lower
   at-rule-name-newline-after: always-multi-line
   at-rule-name-space-after: always
@@ -267,7 +277,12 @@ rules:
   at-rule-semicolon-space-before: never
 
   # Comment
-  comment-empty-line-before: always
+  comment-empty-line-before:
+    - always
+    - except:
+        - first-nested
+      ignore:
+        - stylelint-commands
   comment-whitespace-inside: always
 
   # General / Sheet
