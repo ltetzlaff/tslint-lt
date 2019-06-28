@@ -12,7 +12,8 @@
   },
   "files": [
     "dist",
-    ".prettierrc.yml"
+    ".prettierrc.yml",
+    ".stylelintrc.yml"
   ],
   "main": "dist/index",
   "types": "dist/index",
