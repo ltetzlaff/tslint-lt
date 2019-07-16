@@ -171,7 +171,7 @@ rules:
   function-whitespace-after: always
 
   # Number
-  number-leading-zero: never
+  number-leading-zero: always
   number-no-trailing-zeros: true
 
   # String
