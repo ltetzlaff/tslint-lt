@@ -3,6 +3,14 @@ import { RawRulesConfig } from "tslint/lib/configuration"
 const SPACE_COUNT = 2
 
 const tsOnlyRules: RawRulesConfig = {
+  "unnecessary-constructor": true,
+  "no-for-in": true,
+  "invalid-void": true,
+  "strict-string-expressions": true,
+  "no-promise-as-boolean": true,
+  "adjacent-overload-signatures": true,
+  "strict-comparisons": false,
+  "no-async-without-await": true,
   "typedef-whitespace": [
     true,
     {
