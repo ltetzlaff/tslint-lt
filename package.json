@@ -1,6 +1,6 @@
 {
   "name": "tslint-lt",
-  "version": "1.10.7",
+  "version": "1.11.0",
   "description": "personal tslint config",
   "scripts": {
     "build": "tsc --watch",
